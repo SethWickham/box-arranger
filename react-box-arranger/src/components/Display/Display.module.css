@@ -1,12 +1,7 @@
 .Display {
-}
-
-.Display {
-  background-color: rgb(51, 51, 231);
-  height: 89em;
-  height: 10em;
+  height: 25em;
+  width: 25em;
   position: relative;
-
   margin: 0;
   background: yellow;
   position: absolute;
