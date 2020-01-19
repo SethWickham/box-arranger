@@ -1,0 +1,9 @@
+.Button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 1.4s;
+}
+
+.Button:hover {
+  background-color: blue; /* Green */
+  color: white;
+}
