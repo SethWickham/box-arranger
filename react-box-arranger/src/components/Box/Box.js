@@ -1,7 +1,11 @@
 import React from 'react';
 
-const box = () => {
-  return <div> box</div>;
+const box = props => {
+  return (
+    <div>
+      <div> Box {props.boxNumber}</div>
+    </div>
+  );
 };
 
 export default box;

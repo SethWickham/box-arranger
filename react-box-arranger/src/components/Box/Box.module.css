@@ -1,0 +1,21 @@
+.Box1 {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+}
+
+.Box2 {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+.Box3 {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+.Box4 {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}

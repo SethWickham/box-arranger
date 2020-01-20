@@ -1,9 +1,14 @@
 .Button {
+  font-size: 14px;
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 1.4s;
+  transition-duration: 0.5s;
 }
 
 .Button:hover {
   background-color: blue; /* Green */
   color: white;
+  border: 5px solid darkslategray;
 }
