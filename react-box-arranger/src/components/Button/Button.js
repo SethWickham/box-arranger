@@ -2,9 +2,11 @@ import React from 'react';
 
 import styles from '../Button/Button.module.css';
 
-const button = () => (
+const button = props => (
   <div>
-    <button className={styles.Button}>Button</button>
+    <button onClick={props.clicked} className={styles.Button}>
+      Change
+    </button>
   </div>
 );
 
