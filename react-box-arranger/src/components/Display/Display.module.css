@@ -5,7 +5,7 @@
   flex-direction: column;
 }
 .Title {
-  border: 5px solid darkslategray;
+  border: 5px dashed darkslategray;
   text-align: center;
 }
 

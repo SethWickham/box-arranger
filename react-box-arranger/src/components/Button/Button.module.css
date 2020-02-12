@@ -10,7 +10,7 @@
   height: 75px;
   border-radius: 5px;
   background-color: rgb(59, 131, 131);
-  border: 5px solid darkslategray;
+  border: 5px dotted darkslategray;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.5s;
 }
