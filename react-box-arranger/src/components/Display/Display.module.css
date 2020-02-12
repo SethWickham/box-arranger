@@ -1,8 +1,16 @@
 .Container {
+  border: 5px solid darkslategray;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
 }
 .Title {
+  border: 5px solid darkslategray;
+  text-align: center;
 }
 
 .Display {
-  background-color: yellow;
+  border: 500ch;
+  border: 5px solid darkslategray;
+  align-content: center;
 }

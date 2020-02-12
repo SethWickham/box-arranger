@@ -1,8 +1,16 @@
+.BtnHolder {
+  display: flex;
+  align-content: center;
+}
+
 .Button {
+  margin: 5px;
   font-size: 14px;
   width: 75px;
   height: 75px;
   border-radius: 5px;
+  background-color: rgb(59, 131, 131);
+  border: 5px solid darkslategray;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.5s;
 }

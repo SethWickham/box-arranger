@@ -4,6 +4,7 @@ import Box from '../Box/Box';
 import Button from '../Button/Button';
 
 import styles from '../Box/Box.module.css';
+import stylingBtn from '../Button/Button.module.css';
 
 export default class Arranger extends Component {
   constructor(props) {
@@ -120,10 +121,12 @@ export default class Arranger extends Component {
             <h1>Arrangement Four</h1>
           </div>
         ) : null}
-        <Button clicked={this.arrangeOneHandler} btnNmbr="One" />
-        <Button clicked={this.arrangeTwoHandler} btnNmbr="Two" />
-        <Button clicked={this.arrangeThreeHandler} btnNmbr="Three" />
-        <Button clicked={this.arrangeFourHandler} btnNmbr="Four" />
+        <div className={stylingBtn.BtnHolder}>
+          <Button clicked={this.arrangeOneHandler} btnNmbr="One" />
+          <Button clicked={this.arrangeTwoHandler} btnNmbr="Two" />
+          <Button clicked={this.arrangeThreeHandler} btnNmbr="Three" />
+          <Button clicked={this.arrangeFourHandler} btnNmbr="Four" />
+        </div>
       </div>
     );
   }
